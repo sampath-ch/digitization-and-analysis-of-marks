@@ -22,21 +22,23 @@ The primary objective of this project is to automate the process of converting m
 - Converts recognized marks into a digital format, stored in Excel files for easy access and further analysis.
 - Supports preprocessing of images to standardize input for better recognition accuracy.
 
-### 3. Analysis Tools
+### 3. Security
+
+- **Implements two-layer security:** Cell Encryption and Folder Encryption.
+  - **Cell Encryption:** Encrypts individual cells within Excel files using Fernet symmetric encryption.
+  - **Folder Encryption:** Encrypts entire folders containing sensitive data using a combination of PBKDF2HMAC, SHA-256, and Fernet encryption. 
+
+### 4. Analysis Tools
 
 - **Average Scores Analysis:** Calculates and visualizes average scores for each unit using bar charts.
 - **Difficulty Analysis:** Assesses the difficulty of each question and visualizes the data.
 - **Pass/Fail Analysis:** Determines the pass and fail rates and presents the results in a pie chart.
 
-### 4. Graphical User Interface (GUI)
+### 5. Graphical User Interface (GUI)
 
 - Provides an intuitive GUI for users to interact with the system, including features for loading data, analyzing marks, and visualizing results.
 
-### 5. Security
 
-- **Implements two-layer security:** Cell Encryption and Folder Encryption.
-  - **Cell Encryption:** Encrypts individual cells within Excel files using Fernet symmetric encryption.
-  - **Folder Encryption:** Encrypts entire folders containing sensitive data using a combination of PBKDF2HMAC, SHA-256, and Fernet encryption.
 
 ## Project Structure
 
